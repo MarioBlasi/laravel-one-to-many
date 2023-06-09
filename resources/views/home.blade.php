@@ -3,7 +3,7 @@
 @section('content')
     <div class="my_container bg-dark">
         <div class="container">
-            <h1 class="text-uppercase text-center py-3 display-3 text-white ">Post</h1>
+            <h1 class="text-uppercase text-center py-3 display-3 text-white ">Home</h1>
             <div class="row row-cols-md-4 g-4 pb-5">
                 @forelse ($postList as $post)
                     <div class="col">
